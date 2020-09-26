@@ -6,7 +6,7 @@ http.createServer(function (req, res) {
     switch (path) {
       case '/texturepack.zip'://TO DO: Link to homepage.html
           fs.readFile(path, function(err, data) {
-            res.writeHead(200, {'Content-Type': 'zip'});
+            res.writeHead(200, {'Content-Type': 'text/zip'});
             res.write(data);
             return res.end();
           });
