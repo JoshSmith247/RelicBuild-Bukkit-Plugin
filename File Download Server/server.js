@@ -2,7 +2,7 @@ var http = require('http');
 var url = require('url');
 var fs = require('fs');
 http.createServer(function (req, res) {
-  var path = url.parse(request.url).pathname;
+  var path = url.parse(req.url).pathname;
     switch (path) {
       case '/texturepack.zip'://TO DO: Link to homepage.html
           fs.readFile(path, function(err, data) {
