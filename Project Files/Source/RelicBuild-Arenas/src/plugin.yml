@@ -1,0 +1,35 @@
+name: RelicBuild-Arenas # the name of the plugin.
+
+version: 1.3.0 # the version of the plugin.
+
+main: com.pezapp.relicbuildarenas.Plugin # the main class of the plugin.
+
+api-version: 1.13
+
+# Commands:
+commands:
+   arena:
+      description: Join game.
+      usage: /<command> [Arena]
+      permission: RelicBuild.basic
+      permission-message: You don't have <permission>
+   listArenas:
+      description: List available games.
+      usage: /<command>
+      permission: RelicBuild.basic
+      permission-message: You don't have <permission>
+   addGroup:
+      description: Add new Group.
+      usage: /<command>
+      permission: RelicBuild.basic
+      permission-message: You don't have <permission>
+   leaveGroup:
+      description: Return to arena lobby.
+      usage: /<command>
+      permission: RelicBuild.basic
+      permission-message: You don't have <permission>
+   instantAction:
+      description: Enable instant action group changing
+      usage: /<command>
+      permission: RelicBuild.basic
+      permission-message: You don't have <permission>

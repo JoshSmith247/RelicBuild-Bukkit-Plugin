@@ -1,0 +1,7 @@
+name: RelicBuild-Proxy # the name of the plugin.
+
+version: 1.2.1 # the version of the plugin.
+
+main: com.pezapp.relicbuildproxy.ProxyPlugin # the main class of the plugin.
+
+api-version: 1.13

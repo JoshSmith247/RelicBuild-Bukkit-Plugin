@@ -1,0 +1,16 @@
+name: RelicBuild-CTF # the name of the plugin.
+
+version: 1.0.1 # the version of the plugin.
+
+main: com.pezapp.relicbuildctf.Plugin # the main class of the plugin.
+
+api-version: 1.13
+
+# NOTE: registering command that is already registered in core will break it
+# Commands:
+commands:
+   ctf:
+      description: Capture the flag.
+      usage: /<command>
+      permission: RelicBuild.campers
+      permission-message: You don't have <permission>

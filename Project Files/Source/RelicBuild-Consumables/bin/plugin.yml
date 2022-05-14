@@ -1,0 +1,7 @@
+name: RelicBuild-Consumables # the name of the plugin.
+
+version: 1.0.1 # the version of the plugin.
+
+main: com.pezapp.relicbuildconsumables.Plugin # the main class of the plugin.
+
+api-version: 1.13

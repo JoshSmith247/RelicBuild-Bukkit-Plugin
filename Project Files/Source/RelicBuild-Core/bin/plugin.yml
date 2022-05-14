@@ -1,0 +1,17 @@
+name: RelicBuild-Core # the name of the plugin.
+
+version: 1.6.5 # the version of the plugin.
+
+main: com.pezapp.relicbuildcore.Plugin # the main class of the plugin.
+
+api-version: 1.13
+
+softdepend: [Vault] 
+
+# Commands:
+commands:
+   rb:
+      description: Plugin command.
+      usage: /<command>
+      permission: RelicBuild.basic
+      permission-message: You don't have <permission>
